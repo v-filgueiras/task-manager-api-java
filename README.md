@@ -27,13 +27,13 @@ O sistema foi desenvolvido com foco em escalabilidade e manutenibilidade, aplica
 * Atualizar informações do projeto
 * Deletar um projeto
 
-### 📝 Tasks *(em desenvolvimento)*
+### 📝 Tasks
 
 * Criar tarefas vinculadas a um projeto
 * Atualizar status da tarefa
 * Listar tarefas por projeto
 
-### 👥 Members *(em desenvolvimento)*
+### 👥 Members
 
 * Adicionar membros aos projetos
 * Gerenciar participação em projetos
@@ -82,7 +82,7 @@ A aplicação segue uma **arquitetura em camadas**:
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/seu-usuario/task-manager-api.git
+git clone https://github.com/v-filgueiras/task-manager-api.git
 
 # Acessar a pasta do projeto
 cd task-manager-api
@@ -114,19 +114,9 @@ http://localhost:8080/h2-console
 
 ---
 
-## 📌 Status do Projeto
+## 
 
-🚧 Em desenvolvimento — evoluindo continuamente com novas funcionalidades e melhorias.
-
----
-
-## 👨‍💻 Autor
-
-**Victor Santana**
+**Victor Filgueiras**
 
 ---
-
-## ⭐ Contribuição
-
-Sinta-se à vontade para fazer um fork do projeto, abrir issues ou enviar pull requests. Contribuições são bem-vindas!
 
