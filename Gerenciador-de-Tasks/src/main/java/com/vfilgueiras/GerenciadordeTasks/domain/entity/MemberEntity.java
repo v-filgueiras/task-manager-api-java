@@ -31,7 +31,8 @@ public class MemberEntity {
     @Column(name = "member_email", nullable = false, length = 256)
     private String email;
 
-    public MemberEntity(String secret, String name, String email) {
+    public MemberEntity(String id, String secret, String name, String email) {
+        this.id = id;
         this.secret = secret;
         this.name = name;
         this.email = email;
