@@ -26,4 +26,11 @@ public class MemberService {
 
         return newMember;
     }
+
+    public MemberEntity getMemberByID(String memberID) {
+        return memberRepository
+            .findById(memberID)
+            .orElseThrow(() -> new RuntimeException("Membro nao identificado."));
+    }
+
 }
